@@ -1,0 +1,181 @@
+/* 
+   header
+*/
+
+header {
+   background: #FFF;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px 24px;
+}
+
+header .logo-menu, 
+header .search {
+   display: flex;
+   justify-content: center;
+}
+
+header .logo-menu img {
+   margin-left: 32px;
+}
+
+header .search input {
+   width: 348px;
+   height: 30px;
+   border: 1px solid #CCC;
+}
+
+header .search button {
+   width: 57px;
+   height: 30px;
+}
+
+header .notification {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 24px;
+   margin-right: 20px;
+}
+
+.notification .icons {
+   width: 8%;
+   border-radius: 50%;
+}
+
+/* 
+   main 
+*/
+
+main {
+   background: #F9F9F9;
+   width: 100%;
+   padding-top: 28px;
+
+   display: flex;
+}
+
+/* LEFT */
+
+.video {
+   width: 70%;
+   margin-left: 75px;
+}
+
+.video .video-player-title {
+   padding: 16px 0;
+}
+
+.video .channel-infos {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 42px;
+}
+
+.video .channel-infos .channel {
+   display: flex;
+   flex-direction: row;
+}
+
+.video .channel-infos .channel .channel-details {
+   margin-left: 12px;
+}
+
+.video .channel-infos .channel .channel-details h3 {
+   font-weight: 700;
+}
+
+.video .channel-infos .subscribe-channel button {
+   width: 159px;
+   height: 40px;
+   border: transparent;
+   border-radius: 2px;
+   background: #C00;
+
+   color: #FFF;
+   font-size: 14px;
+   text-transform: uppercase;
+}
+
+.video .channel-infos .like {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.video .channel-infos .dislike {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.video .channel-infos .share {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.video .channel-infos .download {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.video .channel-infos .like p,
+.video .channel-infos .dislike p,
+.video .channel-infos .share p,
+.video .channel-infos .download p {
+   margin-left: 8px;
+}
+
+.video .views {
+   width: 391px;
+   height: 16px;
+   padding: 16px 0;
+}
+
+.video .views p {
+   color: #000;
+   font-weight: 700;
+}
+
+.video .details {
+   padding-top: 16px;
+   width: 510px;
+}
+
+.video .details p {
+   color: #515151;
+   font-weight: 400;
+}
+
+/* RIGHT */
+
+.playlist-video {
+   width: 30%;
+   margin-left: 25px;
+}
+
+.playlist-video .thumbnail {
+   display: flex;
+   margin-bottom: 16px;
+}
+
+.playlist-video .thumbnail .thumbnail-infos {
+   width: 196px;
+   max-height: 90px;
+   margin-left: 16px;
+}
+
+.playlist-video .thumbnail .thumbnail-infos .thumbnail-channel,
+.playlist-video .thumbnail .thumbnail-infos .thumbnail-views {
+   padding-top: 7px;
+}
+
+.playlist-video .thumbnail .thumbnail-infos .thumbnail-channel p,
+.playlist-video .thumbnail .thumbnail-infos .thumbnail-views p {
+   font-size: 12px;
+}
